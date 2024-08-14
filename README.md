@@ -11,7 +11,6 @@ This repository contains a trading bot developed to execute a Moving Average Cro
 - [Testing and Results](#testing-and-results)
 - [Performance Analysis](#performance-analysis)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Strategy Overview
 The trading strategy is based on the Moving Average Convergence Divergence (MACD) indicator, specifically designed for a 1-hour timeframe on Nifty 50 stocks. The strategy triggers buy signals based on moving average crossovers and MACD conditions. The bot then enters long positions with predefined target and stop-loss levels to manage risk effectively.
@@ -28,8 +27,8 @@ The trading strategy is based on the Moving Average Convergence Divergence (MACD
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/nifty50-trading-bot.git
-   cd nifty50-trading-bot
+   git clone https://github.com/kartikeyadangat/Algorithmic_Trading_Bot.git
+   cd Algorithmic_Trading_Bot
    ```
 
 2. **Install the required Python libraries:**
@@ -71,9 +70,13 @@ The Python GUI application interacts with the Zerodha trading platform, allowing
 
 The strategy was thoroughly tested on TradingView and integrated with Zerodha using the Python GUI. A test trade using IOC stocks from the NIFTY50 list demonstrated the bot’s ability to buy and sell stocks autonomously based on the strategy's signals.
 
-### Screenshots
-- **Pine Script Backtest:** Displays the buy and sell signals on the TradingView chart.
-- **Python GUI:** Shows the interface for connecting to Zerodha and executing trades.
+## Screenshots
+Pine Script Backtest: Displays the buy and sell signals on the TradingView chart.
+![image](https://github.com/user-attachments/assets/3a906755-6407-4754-9b11-139658b21fed)
+
+Python GUI: Shows the interface for connecting to Zerodha and executing trades.
+![Screenshot 2024-08-15 000040](https://github.com/user-attachments/assets/6dd920e1-6abc-4675-b3d0-eff31e7e66ad)
+
 
 ## Performance Analysis
 
@@ -84,10 +87,3 @@ The trading bot showed promising results during backtesting, especially with hig
 
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes. For major changes, open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README should provide a clear and concise overview of your project, helping others understand its purpose, how to set it up, and how to contribute.
